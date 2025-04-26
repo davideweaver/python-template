@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+.venv/
+env/
+venv/
+pipenv.lock
+
+# Pipenv
+Pipfile.lock
+
+# Environment Variables
+.env.local
+
+# Pytest cache
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+
+# coverage reports
+htmlcov/
+.coverage
+
+# Logs
+*.log
+
+# System
+.DS_Store
+Thumbs.db
+
+# IDE specific
+.idea/

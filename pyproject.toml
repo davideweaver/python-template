@@ -1,0 +1,24 @@
+[project]
+name = "python-template"
+version = "0.0.1"
+description = "A python template project"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "python-dotenv",
+    "pydantic-settings",
+]
+
+[dependency-groups]
+dev = [
+    "black",
+    "pytest",
+    "mypy-extensions",
+]
+
+[tool.uv]
+package = false
+
+[[tool.uv.index]]
+name = "pypi"
+url = "https://pypi.org/simple"

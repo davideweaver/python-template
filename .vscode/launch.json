@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug FastAPI App (Pipenv)",
+      "type": "debugpy",
+      "request": "launch",
+      "python": "${workspaceFolder}/.venv/bin/python",
+      "program": "${workspaceFolder}/app/main.py",
+      "env": {
+        "ENV": "development"
+      },
+      "console": "integratedTerminal",
+      "justMyCode": true
+    }
+  ]
+}
